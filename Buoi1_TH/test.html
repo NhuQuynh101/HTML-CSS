@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Định dạng văn bản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 20px;
+        }
+
+        h1 {
+            color: green;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .subject {
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: red;
+        }
+
+        .code-block {
+            background-color: #dcdcdc;
+            padding: 10px;
+            font-family: Consolas, "Courier New", monospace;
+            color: blue;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Định dạng văn bản</h1>
+
+    <h2><span class="subject">Hóa học:</span> Nước: <span class="highlight">H<sub>2</sub>O</span>; Axit Sunfuric: <span class="highlight">H<sub>2</sub>SO<sub>4</sub></span></h2>
+
+    <h2><span class="subject">Toán học:</span> Phương trình bậc 2: ax<sup>2</sup> + bx + c = 0</h2>
+
+    <h2><span class="subject">Tin học:</span> Vòng lặp <i>for</i>:</h2>
+    <div class="code-block">
+        int tong = 0;<br>
+        for(int i = 1; i <= 10; i++)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;tong += i;<br><br>
+        printf("Tổng các số từ 1 => 10 là: %d\n", tong);
+    </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập / Tạo tài khoản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 1100px;
+            background-color: white;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            height: 450px;
+            border-color: black;
+        }
+        .login, .social-login {
+            padding: 20px;
+            width: 50%;
+        }
+        .login h2, .social-login h2 {
+            text-align: center;
+            color: #d32f2f;
+            margin-bottom: 20px;
+        }
+        input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .password-eye {
+            position: relative;
+        }
+        .password-eye input {
+            padding-right: 40px;
+        }
+        .password-eye img {
+            position: absolute;
+            top: 12px;
+            right: 10px;
+            cursor: pointer;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #003c71;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #002f5b;
+        }
+        .social-login .google, .social-login .facebook {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+        .google {
+            border-color: #db4437;
+            color: #db4437;
+        }
+        .google:hover {
+            background-color: #db4437;
+            color: white;
+        }
+        .facebook {
+            border-color: #3b5998;
+            color: #3b5998;
+        }
+        .facebook:hover {
+            background-color: #3b5998;
+            color: white;
+        }
+        .forgot-password {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .forgot-password a {
+            color: #003c71;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <h2>Đăng nhập</h2>
+            <form>
+                <input type="email" name="email" placeholder="Email" required>
+                <div class="password-eye">
+                    <input type="password" name="password" placeholder="Mật khẩu" required>
+                    <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" alt="eye icon" width="20" height="20">
+                </div>
+                <button type="submit">Đăng nhập</button>
+            </form>
+            <div class="forgot-password">
+                <a href="#">Lấy lại mật khẩu</a>
+            </div>
+        </div>
+        <div class="social-login">
+            <h2 style="color: black;">Tạo tài khoản</h2>
+            <a href="#" class="google">Google</a>
+            <a href="#" class="facebook">Facebook</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Định dạng văn bản</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin-right: 100px;
+        }
+
+        h1 {
+            color: green;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 100px;
+        }
+
+        h2{
+            color:black;
+        }
+        .highlight{
+            color: red
+        }
+        .subject{
+            font-weight: bold;
+            text-decoration: underline;
+            margin-left: 300px;
+        }
+        .code-block {
+            background-color: #dcdcdc;
+            /* padding: 50px; */
+            padding-right: 150px;
+            padding-left: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: Consolas, "Courier New", monospace;
+            color: blue;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-left: 300px;
+            display: inline-block;
+            line-height: 40px;
+        }
+        .text{
+            font-weight: 100;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Định dạng văn bản
+    </h1>
+    <h2>
+        <span class ="subject">Hóa học:</span> <span class ="text">Nước:</span> <span class="highlight">H<sub>2</sub>O;</span> <span class="text">Axit Sunfuric: </span> <span class="highlight">H<sub>2</sub>SO<sub>4</sub></span>
+    </h2>
+    
+    <h2><span class="subject">Toán học:</span> <span class ="text">Phương trình bậc 2:</span> <span class="highlight">ax<sup>2</sup> + bx + c = 0</span> </h2>
+
+    <h2><span class="subject">Tin học:</span> <span class="text">Vòng lặp <i>for</i>:</span> </h2>
+    <div class="code-block">
+        int tong = 0;<br>
+        for(int i = 1; i <= 10; i++)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;tong += i;<br>
+        printf("Tổng các số từ 1 => 10 là: %d\n", tong);
+    </div>
+</body>
+</html>

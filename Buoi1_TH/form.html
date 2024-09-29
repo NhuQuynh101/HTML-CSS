@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐỂ LẠI NHU CẦU KHÁM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .form-container {
+            max-width: 330px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-container p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        input, select, button {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            /* text-align: center; */
+            margin-left: 8px;;
+        }
+        button {
+            background-color: #f5a623;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 96%;
+        }
+        button:hover {
+            background-color: #e5941f;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2 style="text-align: center; font-size: large;">ĐỂ LẠI NHU CẦU KHÁM</h2>
+        <p>Đặt hẹn ngay để nhận tư vấn và xếp lịch khám kịp thời</p>
+        <form>
+            <input type="text" name="fullname" placeholder="Họ và tên" required>
+            <input type="date" name="dob" placeholder="Ngày sinh YYYY/MM/DD" required>
+            <input type="tel" name="phone" placeholder="Điện thoại" required>
+            <select name="location " style="width: 96%;" required>
+                <option value="" style="width: 90%">Chọn địa điểm gần bạn nhất</option>
+                <option value="location1">Địa điểm 1</option>
+                <option value="location2">Địa điểm 2</option>
+                <option value="location3">Địa điểm 3</option>
+            </select>
+            <button type="submit" style="font-weight: bold;">GỬI YÊU CẦU</button>
+        </form>
+    </div>
+</body>
+</html>
