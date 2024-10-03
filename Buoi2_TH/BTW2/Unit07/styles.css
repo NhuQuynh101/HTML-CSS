@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(156, 3, 3);
+    background-image: 
+        url(rose.png),
+        url(kim-tea-hee.png),
+        url(nen-hoa-hong.png);
+    background-repeat: 
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position:
+        left 10% top 100%, 
+        left top 20%,
+        right bottom -10%;
+    padding: 20px;
+}
+
+table{
+    background-color: rgb(156, 3, 3);
+    margin: 50px auto;
+    margin-top: 20px;
+    border-collapse: separate;
+    width: 700px;
+    height: 200px;
+    border: 1px solid #FFFFFF;
+}
+
+th, td {
+   
+    text-align: center;
+}
+
+.whiteText{
+    color: white;
+}
+
+.redText{
+    color: red;
+}
+.firstText{
+    color: white;
+    text-align: right;
+}
+.DoubleRichPresent{
+    width: 200px;
+    margin: 10px auto;
+}
+
+#pinkCell{
+    border: none;
+    background-color: rgb(255, 173, 239);
+    height: 20px;
+    color: red;
+    font-size: 20px;
+}
+
+#redCell{
+    background-color: rgb(255, 0, 0);
+    text-align: right;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+}
+#doubleRich{
+    height: 30px;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(255, 173, 239);
+}
+.square-bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border: solid red;
+}
+
+.red-ContentText{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.white-ContentText{
+    color: rgb(225, 225, 225);
+    font-size: 15px;
+    text-align: left;
+    font-weight: 5;
+}
+
+.ItalicText{
+    font-style: italic;
+    font-weight: bold;
+}

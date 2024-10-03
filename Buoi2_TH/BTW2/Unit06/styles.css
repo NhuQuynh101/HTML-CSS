@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(truong_day_thiet_ke_do_hoa.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 10% left ;
+    background-position-y: bottom;
+    background-position: left 20% bottom;
+}
+
+.image1 {
+    width: 24.7%;
+}
+
+.header {
+    background-repeat: repeat-x;
+    background-size: auto 100px;
+    padding: 20px 0;
+}
+
+.header h1 {
+    color: #00ff00;
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: #ffffff;
+    color: black;
+    margin: 20px auto;
+    border: 4px solid #00ff00;
+}
+
+th, td {
+    border: 2px solid #00ff00;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #00ff00;
+    font-weight: bold;
+}
+
+tr:nth-child(even) td {
+    background-color: #66ffff;
+}
+
+tr:last-child td {
+    background-color: #ff9900;
+}
+
+th:first-child, th:nth-child(2) {
+    background-color: #00ff00;
+}
+
+tr:first-child th {
+    background-color: #00ff00;
+}
+
+th:nth-child(3), tr:nth-child(3) {
+    background-color: #fcfdfc;
+}
+
+.image-container {
+    position: relative;
+    margin-top: 20px;
+}
+
