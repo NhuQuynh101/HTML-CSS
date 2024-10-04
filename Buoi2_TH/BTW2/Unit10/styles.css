@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-image: url(background.gif);
+    background-size: 100%;
+}
+
+.container {
+    width: 60%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #000000;
+    position: relative;
+    height: 550px;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.banner {
+    margin-top: -25px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100px;
+}
+.redUnderlineText{
+    color: #ff0000;
+    text-decoration: underline;
+    opacity: 1;
+}
+p{
+    font-size: 12px;
+}
+.boldText{
+    font-weight: bold;
+}
+.vendorText{
+    margin-top: -10px;
+}
+.footer{
+    margin-top: 130px;
+}
+.footerText{
+    margin-top: -5px;
+    font-size: 8px;
+    font-weight: 1;
+    color: rgba(255, 255, 255, 0.6);
+}
+
