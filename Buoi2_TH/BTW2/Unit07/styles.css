@@ -14,7 +14,11 @@ body{
         left 10% top 100%, 
         left top 20%,
         right bottom -10%;
+<<<<<<< HEAD
         padding: 20px;
+=======
+    padding: 20px;
+>>>>>>> 2e2d355 (a)
 }
 
 table{
