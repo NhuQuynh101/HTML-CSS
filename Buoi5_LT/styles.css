@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    .box{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .red{
+        background-color: red;
+        color: white;
+    }
+    .green{
+        background-color: green;
+        color: white;
+    }
+    .blue{
+        background-color: blue;
+        color: white;
+    }
+}

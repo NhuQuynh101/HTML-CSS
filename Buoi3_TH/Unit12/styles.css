@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.form-container {
+    background-color: #e6f7ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    display: grid;
+    /* grid-template-columns: auto 1fr; */
+    gap: 15px 15px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(khuyen-mai.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    height: 390px;  
+    box-shadow: 4px 4px 10px rgba(2, 6, 250, 0.7);
+}
+
+h2 {
+    color: #6600cc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: contents;
+    grid-column: 2;
+    display: flex;
+    width: 100%;
+    gap: 10px 10px;
+    align-items: center;
+    margin-top: 15px;
+    text-align: right;
+    padding-right: 80px;
+}
+
+
+.form-group-label{
+    text-align: left;
+    margin-right: 10px;
+}
+
+label {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+label[for="participants"]{
+    text-align: left;
+}
+
+label[for="name"]{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+input[type="text"], input[type="tel"], select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #99ccff;
+    border-radius: 5px;
+    background-color: #cce6ff;
+}
+
+input[name="name"], input[name="phone"] {
+    width: 50%;
+    border-radius: 25px;
+    border: 1.5px dotted #3299ff;
+}
+
+input[name="address"] {
+    height: 40px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1.5px dotted #3299ff;
+}
+
+input[name="participants"]{
+    width: 30%;
+}
+
+#occupation{
+    margin-right: 10px;
+    border-radius: 25px;
+    border: 1.5px dotted #3299ff;
+}
+
+#product{
+    margin-right: 10px;
+    border-radius: 25px;
+    border: 1.5px dotted #3299ff;
+}
+
+#participants{
+    border-radius: 25px;
+    border: 1.5px dotted #3299ff;
+}
+
+.gender-group {
+    grid-column: 2;
+    display: flex;
+    gap: 15px;
+}
+
+.gender-group label {
+    margin-right: 5px;
+}
+
+select {
+    width: auto;
+}
+
+.submit-btn {
+    grid-column: 1 / -1;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: #ff00ff;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}

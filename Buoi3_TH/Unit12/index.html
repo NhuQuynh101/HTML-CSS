@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu đăng ký tham gia chương trình khuyến mãi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h2>Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+    </div>
+    <div class="form-container">
+        <form>
+            <div class="form-group" style="margin-left: 115px;">
+                <label for="name">Họ tên:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group" style="margin-left: 125px;">
+                <label for="address">Địa chỉ:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group" style="margin-left: 105px;">
+                <label for="phone">Điện thoại:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group" style="margin-left: 115px;">
+                <div class="gender-group">
+                    <label>Giới tính:</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Nữ</label>
+                </div>
+            </div>
+            <div class="form-group" style="margin-left: 90px;">
+                <label for="occupation">Nghề nghiệp:</label>
+                <select id="occupation" name="occupation" required>
+                    <option value="teacher">Giáo viên</option>
+                    <option value="doctor">Bác sĩ</option>
+                    <option value="engineer">Kỹ sư</option>
+                    <option value="other">Khác</option>
+                </select>
+            </div>
+            <div class="form-group" style="margin-left: 15px;">
+                <label for="product">Chọn sản phẩm tham gia:</label>
+                <select id="product" name="product" required>
+                    <option value="toothpaste">Kem đánh răng</option>
+                    <option value="detergent">Bột giặt</option>
+                    <option value="shampoo">Dầu gội đầu</option>
+                    <option value="milk">Sữa tắm</option>
+                </select>
+            </div>
+            <div class="form-group" style="margin-right: 60px;">
+                <label for="participants">Số người dự đoán tham gia:</label>
+                <input type="text" id="participants" name="participants" required>
+            </div>
+            <button type="submit" class="submit-btn">Đồng ý</button>
+            <p class="success-message">Bạn đã đăng ký thành công!!!</p>
+        </form>
+    </div>
+</body>
+</html>

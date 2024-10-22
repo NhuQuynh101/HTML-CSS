@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.container {
+    background-image: url('mucluc.jpg');
+    background-size: auto;
+    background-position: left top 80px;
+    background-repeat: no-repeat;
+    min-height: 115vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-image: url('nen-hoa-co.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 100px;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+}
+
+.content {
+    margin-left: 250px; /* Adjust this value to align with the clean area in the background image */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 250px;
+}
+
+.title {
+    background-color: #FFB6C1;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #FF1493;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.poem {
+    background-color: #FFFACD;
+    padding: 20px;
+    flex-grow: 1;
+    margin: 10px;
+    height: 75%;
+}
+
+.poem p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.blue-text { 
+    color: blue;
+    font-style: italic;
+}
+.purple-text { 
+    color: purple;
+    font-style: italic;
+}
+.green-text { 
+    color: green;
+    font-style: italic;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+}

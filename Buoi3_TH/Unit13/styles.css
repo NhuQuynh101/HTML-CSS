@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    font-size: 12px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 20%;
+}
+
+.centerButton {
+    text-align: center;
+    align-items: center;
+}
+
+textarea {
+    height: 60px;
+}
+
+.yellow-bg {
+    background-color: #ffffc0;
+}
+
+.yellow-bg-2 {
+    background-color: #ffffc0;
+    color: blue;
+}
+
+.group-box {
+    border: 1px solid #000;
+    margin: 5px 50px;
+    position: relative;
+}
+
+.group-header {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    padding: 0 5px;
+}
+
+.group-header span {
+    font-size: 12px;
+    background-color: #ffffc0;
+}
+
+.group-content {
+    padding: 15px 5px 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.success-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"][size="5"] {
+    width: auto;
+    margin: 0 5px;
+}

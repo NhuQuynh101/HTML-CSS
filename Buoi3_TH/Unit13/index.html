@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký du lịch</title>          
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ĐĂNG KÝ DU LỊCH</h1>
+        <form>
+            <table>
+                <tr>
+                    <td class="yellow-bg-2">Họ tên</td>
+                    <td class="yellow-bg"><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td class="yellow-bg-2">Địa chỉ</td>
+                    <td class="yellow-bg"><textarea name="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="yellow-bg-2">Điện thoại</td>
+                    <td class="yellow-bg"><input type="text" name="phone"></td>
+                </tr>
+                <tr>
+                    <td class="yellow-bg-2">Khách Việt Nam</td>
+                    <td class="yellow-bg"><input type="checkbox" name="vietnamese" checked></td>
+                </tr>
+                <tr>
+                    <td class="yellow-bg-2">Chọn tour</td>
+                    <td class="yellow-bg">
+                        <select name="tour">
+                            <option>Phú Quốc - Côn Đảo</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="yellow-bg-2">Phương tiện</td>
+                    <td class="yellow-bg">
+                        <input type="radio" name="transport" value="plane" checked> Máy bay
+                        <input type="radio" name="transport" value="bus"> Xe du lịch
+                    </td>
+                </tr>
+                <tr class="yellow-bg-2">
+                    <td colspan="2">
+                        <div class="group-box">
+                            <div class="group-header">
+                                <span>Số lượng đoàn khách</span>
+                            </div>
+                            <div class="group-content yellow-bg">
+                                Người lớn <input type="text" name="adults" size="5" value="7">
+                                Trẻ em <input type="text" name="children" size="5" value="2">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="yellow-bg">
+                    <td class="yellow-bg-2">Ghi chú thêm</td>
+                    <td class="yellow-bg">
+                        <textarea name="notes">Có 2 người lớn trên 70 tuổi
+Có 2 người lớn ăn chay
+2 trẻ em: 10 tuổi, 1 tuổi</textarea>
+                    </td>
+                </tr>
+                <tr class="yellow-bg">
+                    <td colspan="2" class="centerButton">
+                        <input type="submit" value="Đồng ý">
+                    </td>
+                </tr>
+                <tr class="yellow-bg">
+                    <td colspan="2" >
+                        <p class="success-message">Bạn đã đăng ký thành công!!!</p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
